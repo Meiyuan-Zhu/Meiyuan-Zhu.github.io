@@ -43,71 +43,55 @@ redirect_from:
 
 <div id="research"></div>
 
-## Research Experiences
+## Research
 
 <div class="research-list">
-  <div class="academic-entry research-entry">
-    <div class="research-entry__header">
-      <div>
-        <h3>SeekVLN: Evidence-Seeking Vision-and-Language Navigation with Uncertainty Awareness</h3>
-        <p class="entry-role">Co-first Author · Tsinghua SIGS · Advisor: Prof. Zhi Wang</p>
+  <div class="academic-entry research-entry research-featured-entry">
+    <a class="research-thumb" href="https://xlang.ai/blog/roboinf" target="_blank">
+      <img src="https://xlang.ai/blog/xgen/pipeline_main.webp" alt="RoboInF pipeline overview">
+    </a>
+    <div class="research-featured-content">
+      <div class="research-entry__header">
+        <div>
+          <h3>RoboInF: Scaling Robot Manipulation Data in Simulation for Embodied Instruction Following</h3>
+        </div>
       </div>
-      <span class="entry-date">2026.04 - Present</span>
+      <p class="research-summary">An automated simulation data engine that generates diverse scenes, natural task instructions, reward functions, motion programs, and verified trajectories for VLA model training.</p>
+      <div class="entry-links">
+        <a href="https://xlang.ai/blog/roboinf" target="_blank">Blog</a>
+      </div>
     </div>
-    <ul>
-      <li>Proposed the notion of <em>progress myopia</em> to study overconfident progress estimation caused by ambiguous instructions and missing out-of-view evidence in long-horizon VLN.</li>
-      <li>Designed the SeekVLN framework, which combines direct navigation with uncertainty-calibrated panoramic observation and structured progress reasoning.</li>
-      <li>Built 17K+ structured calibration samples from R2R expert trajectories and explored supervised fine-tuning and PPO-based optimization with progress and counterfactual rewards.</li>
-    </ul>
-    <p class="entry-note">Target venue: AAAI 2027.</p>
   </div>
 
-  <div class="academic-entry research-entry">
-    <div class="research-entry__header">
-      <div>
-        <h3>RoboInF: A Simulation Data Generation Engine for General Robotic Instruction Following</h3>
-        <p class="entry-role">Research Assistant Intern · The University of Hong Kong · Advisor: Prof. Tao Yu</p>
-      </div>
-      <span class="entry-date">2025.07 - 2025.09</span>
+  <div class="academic-entry research-entry research-featured-entry">
+    <div class="research-thumb">
+      <img src="/images/research/autonomous-systems-overview.png" alt="Autonomous unmanned systems testing overview">
     </div>
-    <ul>
-      <li>Contributed to an automated data generation framework for VLA model training, covering scene generation, task generation, reward design, motion program generation, and successful trajectory filtering.</li>
-      <li>Developed diverse tabletop manipulation scenes with LIBERO and ManiSkill, varying object layouts, initial states, spatial relations, and environmental perturbations.</li>
-      <li>Built reusable task and reward-code generation components, supporting structured constraints over spatial relations, object states, articulated objects, and temporal dependencies.</li>
-    </ul>
-    <p class="entry-note">The project preview includes 1M+ successful trajectories, 5K+ tasks, 300+ scenes, and 50+ reward primitives.</p>
+    <div class="research-featured-content">
+      <div class="research-entry__header">
+        <div>
+          <h3>Testing Autonomous Unmanned Systems in the Era of Large Language Models</h3>
+        </div>
+      </div>
+      <p class="research-summary">A survey on how large models can support scenario generation, test execution, fault diagnosis, and repair for autonomous driving, UAVs, and robotic systems.</p>
+    </div>
   </div>
 
-  <div class="academic-entry research-entry">
-    <div class="research-entry__header">
-      <div>
-        <h3>Testing Autonomous Unmanned Systems in the Era of Large Language Models: Status, Challenges, and Opportunities</h3>
-        <p class="entry-role">Co-first Author · Nanjing University · Advisor: Prof. Enyi Tang</p>
+  <div class="academic-entry research-entry research-featured-entry">
+    <a class="research-thumb salon-thumb" href="https://github.com/Low-keyyyy/SALON" target="_blank">
+      <img src="/images/research/SALON.png" alt="SALON pipeline overview">
+    </a>
+    <div class="research-featured-content">
+      <div class="research-entry__header">
+        <div>
+          <h3>SALON: Paper-Knowledge-Enhanced LLM Framework for Sentiment Analysis in Software Engineering Texts</h3>
+        </div>
       </div>
-      <span class="entry-date">2025.09 - Present</span>
-    </div>
-    <ul>
-      <li>Conducted a systematic literature review on LLM-enabled testing for autonomous unmanned systems, including autonomous driving, UAVs, and robotic systems.</li>
-      <li>Developed a cross-domain taxonomy from three perspectives: testing workflow, LLM techniques, and testing-object granularity.</li>
-      <li>Summarized common methods, domain-specific differences, and future opportunities across scenario generation, test execution, fault diagnosis, and test repair.</li>
-    </ul>
-    <p class="entry-note">Manuscript in preparation for submission to ACM TOSEM.</p>
-  </div>
-
-  <div class="academic-entry research-entry">
-    <div class="research-entry__header">
-      <div>
-        <h3>Paper-Knowledge-Enhanced LLM Framework for Sentiment Analysis in Software Engineering Texts</h3>
-        <p class="entry-role">Fifth Author · Nanjing University · Advisor: Prof. Hongyu Kuang</p>
+      <p class="research-summary">A paper-insight-enhanced prompting framework that injects SA4SE domain knowledge into LLM-based sentiment classification for software engineering texts.</p>
+      <div class="entry-links">
+        <a href="https://github.com/Low-keyyyy/SA4SE-NJU2025" target="_blank">GitHub</a>
       </div>
-      <span class="entry-date">2024.09 - 2025.03</span>
     </div>
-    <ul>
-      <li>Participated in building an LLM-assisted sentiment classification framework for software engineering texts with dense technical terminology and implicit affective expressions.</li>
-      <li>Extracted domain knowledge from representative SA4SE studies, including sentiment definitions and technical semantic cues, and incorporated it into structured prompting strategies.</li>
-      <li>Contributed to prompt-engineering design, LLM experiment comparison, and academic writing for the submitted manuscript.</li>
-    </ul>
-    <p class="entry-note">Submitted to Internetware 2025.</p>
   </div>
 </div>
 
@@ -328,6 +312,82 @@ h2::after {
   border-left: 3px solid rgba(82, 173, 200, 0.7);
 }
 
+.research-featured-entry {
+  display: grid;
+  grid-template-columns: minmax(220px, 34%) 1fr;
+  gap: 1.1rem;
+  align-items: start;
+  padding: 1.05rem;
+  border-color: rgba(82, 173, 200, 0.22);
+  background:
+    linear-gradient(135deg, rgba(255, 255, 255, 0.82), rgba(82, 173, 200, 0.045)),
+    var(--global-bg-color);
+  box-shadow: 0 10px 28px rgba(27, 61, 74, 0.08);
+  transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease;
+}
+
+.research-featured-entry:hover {
+  transform: translateY(-2px);
+  border-color: rgba(82, 173, 200, 0.38);
+  box-shadow: 0 14px 34px rgba(27, 61, 74, 0.12);
+}
+
+.research-thumb {
+  display: block;
+  overflow: hidden;
+  border-radius: 8px;
+  border: 1px solid rgba(82, 173, 200, 0.18);
+  background: rgba(255, 255, 255, 0.72);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.7);
+}
+
+.research-thumb img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  object-fit: cover;
+  transition: transform 0.22s ease;
+}
+
+.salon-thumb {
+  text-decoration: none;
+}
+
+.salon-thumb__visual {
+  display: grid;
+  place-content: center;
+  gap: 0.35rem;
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  padding: 1rem;
+  color: var(--global-text-color);
+  text-align: center;
+  background:
+    radial-gradient(circle at 18% 18%, rgba(82, 173, 200, 0.22), transparent 30%),
+    linear-gradient(135deg, rgba(82, 173, 200, 0.13), rgba(255, 255, 255, 0.78));
+}
+
+.salon-thumb__visual span {
+  font-size: 1.55em;
+  font-weight: 800;
+  line-height: 1;
+  letter-spacing: 0.02em;
+}
+
+.salon-thumb__visual small {
+  color: var(--global-text-color-light);
+  font-weight: 700;
+  line-height: 1.35;
+}
+
+.research-featured-entry:hover .research-thumb img {
+  transform: scale(1.025);
+}
+
+.research-featured-content {
+  min-width: 0;
+}
+
 .research-entry__header {
   display: flex;
   align-items: flex-start;
@@ -367,6 +427,11 @@ h2::after {
 .research-entry li {
   margin-bottom: 0.38rem;
   line-height: 1.5;
+}
+
+.research-summary {
+  margin: 0.45rem 0 0.75rem 0 !important;
+  color: var(--global-text-color);
 }
 
 .entry-note {
@@ -415,6 +480,16 @@ h2::after {
 .entry-links a:hover {
   background: rgba(82, 173, 200, 0.1);
   text-decoration: none;
+}
+
+.research-featured-entry .entry-links a {
+  background: rgba(82, 173, 200, 0.08);
+  box-shadow: 0 2px 8px rgba(82, 173, 200, 0.08);
+}
+
+.research-featured-entry .entry-links a:hover {
+  background: rgba(82, 173, 200, 0.16);
+  box-shadow: 0 4px 12px rgba(82, 173, 200, 0.14);
 }
 
 .award-list {
@@ -478,6 +553,14 @@ h2::after {
 
   .research-entry__header {
     display: block;
+  }
+
+  .research-featured-entry {
+    display: block;
+  }
+
+  .research-thumb {
+    margin-bottom: 0.85rem;
   }
 
   .entry-date {

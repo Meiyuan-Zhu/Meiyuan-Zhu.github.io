@@ -9,11 +9,11 @@ redirect_from:
 
 <div id="about"></div>
 
-# Welcome to Meiyuan Zhu's Academic Website 🎉
+# Welcome to Meiyuan's Homepage 🎉
 
-Hello! I’m a 2nd year Software Engineering undergrad at Nanjing University. My research interests lie in Visual–Language Agents, Embodied AI and Multimodal LLMs. My goal is to build AI agents that can seamlessly understand, reason, and act across both physical and digital environments.
+Hello! I am a 3rd year Software Engineering undergraduateat Nanjing University. My research interests lie in Embodied AI, particularly vision-and-language navigation, VLA models, and world models for multimodal perception, reasoning, and decision-making. I am also interested in AI agents and multi-agents collaboration in complex environments.
 
-Currently I’m a student Research Assistant at [XLANG Lab](https://xlang.ai/) (as part of the [HKU NLP Group](https://hkunlp.github.io/)) with [Prof. Tao Yu](https://taoyds.github.io/). Before that, I had the honor of collaborating with [Prof. Hongyu Kuang](https://software.nju.edu.cn/khy/index.html) at Nanjing University on large-scale language understanding and generation research.
+Currently, I am honored to be conducting research at Tsinghua SIGS, advised by [Prof. Zhi Wang](https://mmlab-sigs.github.io/groups/zwang/). Previously, I worked with [Prof. Tao Yu](https://taoyds.github.io/) at [XLANG Lab](https://xlang.ai/), The University of Hong Kong and with [Prof. Hongyu Kuang](https://software.nju.edu.cn/khy/index.html) at Nanjing University.
 
 ---
 

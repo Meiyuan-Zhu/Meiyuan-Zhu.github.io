@@ -95,40 +95,16 @@ redirect_from:
   </div>
 </div>
 
-<div id="projects"></div>
+<div id="experience"></div>
 
-## Projects
+## Experience
 
-<div class="project-list">
-  <div class="academic-entry project-entry">
-    <div>
-      <h3>LLM-Enhanced Prompt Design for Sentiment Analysis on SE Texts</h3>
-      <p>We propose a paper-insight-enhanced prompting approach that utilizes insights digested from SA4SE-related papers to guide ChatGPT toward better performance in this task.</p>
-      <div class="entry-links">
-        <a href="https://github.com/Meiyuan-Zhu/SA4SE-NJU2025">GitHub</a>
-      </div>
-    </div>
-  </div>
-
-  <div class="academic-entry project-entry">
-    <div>
-      <h3>Forexseek Website</h3>
-      <p>A foreign exchange information platform with frontend implementation and interactive market-oriented pages.</p>
-      <div class="entry-links">
-        <a href="https://github.com/Meiyuan-Zhu/2025-HuaQiFrontend">GitHub</a>
-        <a href="http://118.178.184.189/#/homepage">Website</a>
-      </div>
-    </div>
-  </div>
-
-  <div class="academic-entry project-entry">
-    <div>
-      <h3>"Tomato" Bookstore Website</h3>
-      <p>An online bookstore platform with frontend implementation for browsing and book-management workflows.</p>
-      <div class="entry-links">
-        <a href="https://github.com/bbyuan/Tomato-BookStore-Frontend">GitHub</a>
-      </div>
-    </div>
+<div class="academic-entry education-entry">
+  <img src="/images/Insta360.webp" alt="Insta360 Logo" class="entry-logo">
+  <div>
+    <h3>Insta360</h3>
+    <p class="entry-meta">2025.11 - 2026.05</p>
+    <p class="entry-title">Backend Development Intern</p>
   </div>
 </div>
 
@@ -138,19 +114,28 @@ redirect_from:
 
 <ul class="award-list">
   <li>
-    <strong>National Grand Prize, Citi Cup Financial Innovation Competition, 2025</strong>
-    <span>Top 1 team nationwide, $10,000</span>
+    <strong>Nanjing University Special Grand Prize of the Pillar Scholarship, 2025</strong>
+    <span>The highest undergraduate honor scholarship at Nanjing University; 13 recipients across the university, ¥20,000</span>
   </li>
   <li>
     <strong>National Scholarship, 2024</strong>
     <span>Top 0.2% nationwide, the highest honor for undergraduates in China, ¥10,000</span>
   </li>
   <li>
-    <strong>First Prize, EL Programming Design Competition, Nanjing University</strong>
-    <span>Top 2 teams in NJU, ¥3,000</span>
+    <strong>Insta360 "Think-bold" Grand Prize Scholarship, 2026</strong>
+    <span>Ranked first in the college; 3 recipients in the college, ¥10,000</span>
   </li>
   <li>
-    <strong>Outstanding Student Leader, 2023, 2024</strong>
+    <strong>BYD Scholarship, 2025</strong>
+    <span>4 recipients in the college, ¥10,000</span>
+  </li>
+  <li>
+    <strong>Contemporary Undergraduate Mathematical Contest in Modeling MWORKS Modeling Star, First Prize, 2025</strong>
+    <span>Achieved Nanjing University's best result in this competition since 1995</span>
+  </li>
+  <li>
+    <strong>National Grand Prize, Citi Cup Financial Innovation Competition, 2025</strong>
+    <span>Top 1 team nationwide, $10,000</span>
   </li>
 </ul>
 
@@ -449,16 +434,6 @@ h2::after {
 
 .note-panel p {
   margin: 0;
-}
-
-.project-list {
-  display: grid;
-  gap: 0.85rem;
-}
-
-.project-entry {
-  margin-bottom: 0;
-  border-left: 3px solid rgba(82, 173, 200, 0.55);
 }
 
 .entry-links {
